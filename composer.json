@@ -1,0 +1,16 @@
+{
+    "name": "lightim/server-library",
+    "description": "Lightim server library for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Tianle Xu",
+        "email": "xtl@xtlsoft.top"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Lightim\\Library\\Server\\": "./src/"
+        }
+    },
+    "require": {}
+}
